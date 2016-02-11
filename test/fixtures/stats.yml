@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  running: MyString
+  power_out: MyString
+  power_in: MyString
+  resources_left: MyString
+  up_time: MyString
+  down_time: MyString
+  time_until_out_of_fuel: MyString
+
+two:
+  running: MyString
+  power_out: MyString
+  power_in: MyString
+  resources_left: MyString
+  up_time: MyString
+  down_time: MyString
+  time_until_out_of_fuel: MyString
