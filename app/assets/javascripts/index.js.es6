@@ -16,7 +16,9 @@ const fetchStats = () => {
     success: (data) => {
       console.log(data)
       console.log("WOW")
-      console.log($('h2'));
+      console.log($('h2'))
+      $('#stats').empty()
+      $('#stats').append(`<h1>${data.length}</h1>`)
     },
     error: () => {
       $idea.parent().remove()
