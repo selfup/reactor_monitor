@@ -1,6 +1,6 @@
 class Stats {
   constructor() {
-
+    this.logStuff
   }
 
   get logStuff() {
@@ -9,5 +9,3 @@ class Stats {
 }
 
 const stats = new Stats
-
-stats.logStuff
