@@ -1,4 +1,4 @@
-class StatsController < ApplicationController
+class Api::V1::StatsController < ApplicationController
   respond_to :json
 
   def index
